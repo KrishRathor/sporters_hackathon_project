@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/product.css')}}">
+</head>
+<body>
+    
+    <nav>
+        <header>
+            <nav>
+                <ol>
+                    <a href="home.html">
+                        <div id="logo"></div>
+                        <div id="company_name"></div>
+                    </a>
+                    <li><a href="login.html" target="_blank"><img src="static/login.png" alt="Log in" id="login"></a></li>
+                    <li class="hover"><a href="">Home</a></li>
+                    <li class="hover"><a href="">Contact Us</a></li>
+                    <li class="hover"><a href="">About Us</a></li>
+                    <li class="hover"><a href="">Products</a></li>
+                </ol>
+            </nav>
+        </header>
+    </nav>
+
+    <h1>
+        LiveStreaming...
+    </h1>
+
+    <div class="">
+        <img src="{{url_for('video')}}" alt="" width="50%">
+    </div>
+
+</body>
+</html>

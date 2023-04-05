@@ -1,0 +1,314 @@
+nav ol {
+    list-style-type: none;
+    background-color: black;
+    overflow: auto;
+    margin: -8px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav ol li {
+    float: right;
+    padding: 15px 10px;
+    margin-top: 12px;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    position: relative;
+}
+
+.hover a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+}
+
+.hover a:hover::before {
+    width: 100%;
+}
+
+#logo {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    background-image: url(static/logo.png);
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#company_name {
+    width: 175px;
+    height: 45px;
+    background-image: url(static/sporters.png);
+    display: inline-block;
+    background-size: cover;
+
+}
+
+#login {
+    background-color: white;
+    height: 32px;
+}
+
+.container {
+    position: relative;
+    z-index: -1;
+    height: 530px;
+}
+
+#box1 {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/restaurant.png);
+    width: 48%;
+    height: 530px;
+    margin-left: -8px;
+    margin-top: -32px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+
+#box1 h1 {
+    font-size: 70px;
+    color: #4e1688;
+    margin: 32px;
+    position: absolute;
+    top: 150px;
+    font-family: 'Alkatra', cursive;
+    line-height: 100%;
+}
+
+#box1 p {
+    font-size: 25px;
+    color: rgb(255 255 255);
+    margin: 32px;
+    position: absolute;
+    top: 300px;
+}
+
+#box2 {
+    width: 52%;
+    height: 530px;
+    background-color: #4e1688;
+    display: inline-block;
+    margin-left: -4px;
+    position: relative;
+    top: 0;
+}
+
+#products {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/beige-tiles.png);
+    margin-top: -20px;
+    margin-left: -8px;
+    padding-bottom: 15px;
+}
+
+#products h1 {
+    color: #4e1688;
+    text-align: center;
+    font-size: 250%;
+    padding-top: 15px;
+}
+
+#products p {
+    text-align: center;
+    font-size: 25px;
+}
+
+#products li {
+    margin-left: 30%;
+    font-size: 20px;
+}
+
+#about {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/gravel.png);
+    margin-top: -20px;
+    margin-left: -8px;
+    padding-bottom: 15px;
+}
+
+#about h1 {
+    padding-left: 10px;
+    font-size: 200%;
+    color: #1c003d;
+}
+
+#about p {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+#contact {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/criss-cross.png);
+    margin-top: -20px;
+    margin-left: -8px;
+    padding-bottom: 15px;
+}
+
+#contact h1 {
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 250%;
+    color: #1c003d;
+    text-align: center;
+}
+
+#contact p {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+#contact p a {
+    text-decoration: none;
+    color: #d47500;
+}
+
+#contact p a:hover {
+    text-decoration: underline solid;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 225%;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0069d9;
+}
+
+footer {
+    background-color: #000;
+    margin-top: 8px;
+    margin-left: -8px;
+    color: #ddd;
+    font-size: 115%;
+    padding-left: 15px;
+    margin-bottom: -18px;
+}
+
+footer h3 {
+    color: #007bff;
+}
+
+footer li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    text-decoration: underline solid;
+}
+
+footer ol {
+    list-style-type: none;
+}
+
+#fabout {
+    width: 40%;
+    display: inline-block;
+}
+
+footer ol {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+footer hr {
+    width: 40%;
+    margin: 0;
+}
+
+hr+p {
+    padding-bottom: 15px;
+}
+
+#try_our_product {
+    display: block;
+    margin: auto;
+    width: 10%;
+    height: 40px;
+    background-color: #00a92a;
+    border: none;
+    border-radius: 4px;
+}
+#try_our_product a{
+    text-decoration: none;
+    color: #fff;
+}
+#try_our_product:hover {
+    background-color: #03810c;
+}
+
+
+
+                                                                                                                                                           
+/*                                                                                                                                                            
+   SSSSSSSSSSSSSSS                                                                  tttt                                                                   
+ SS:::::::::::::::S                                                              ttt:::t                                                                   
+S:::::SSSSSS::::::S                                                              t:::::t                                                                   
+S:::::S     SSSSSSS                                                              t:::::t                                                                   
+S:::::S           ppppp   ppppppppp      ooooooooooo   rrrrr   rrrrrrrrr   ttttttt:::::ttttttt        eeeeeeeeeeee    rrrrr   rrrrrrrrr       ssssssssss   
+S:::::S           p::::ppp:::::::::p   oo:::::::::::oo r::::rrr:::::::::r  t:::::::::::::::::t      ee::::::::::::ee  r::::rrr:::::::::r    ss::::::::::s  
+ S::::SSSS        p:::::::::::::::::p o:::::::::::::::or:::::::::::::::::r t:::::::::::::::::t     e::::::eeeee:::::eer:::::::::::::::::r ss:::::::::::::s 
+  SS::::::SSSSS   pp::::::ppppp::::::po:::::ooooo:::::orr::::::rrrrr::::::rtttttt:::::::tttttt    e::::::e     e:::::err::::::rrrrr::::::rs::::::ssss:::::s
+    SSS::::::::SS  p:::::p     p:::::po::::o     o::::o r:::::r     r:::::r      t:::::t          e:::::::eeeee::::::e r:::::r     r:::::r s:::::s  ssssss 
+       SSSSSS::::S p:::::p     p:::::po::::o     o::::o r:::::r     rrrrrrr      t:::::t          e:::::::::::::::::e  r:::::r     rrrrrrr   s::::::s      
+            S:::::Sp:::::p     p:::::po::::o     o::::o r:::::r                  t:::::t          e::::::eeeeeeeeeee   r:::::r                  s::::::s   
+            S:::::Sp:::::p    p::::::po::::o     o::::o r:::::r                  t:::::t    tttttte:::::::e            r:::::r            ssssss   s:::::s 
+SSSSSSS     S:::::Sp:::::ppppp:::::::po:::::ooooo:::::o r:::::r                  t::::::tttt:::::te::::::::e           r:::::r            s:::::ssss::::::s
+S::::::SSSSSS:::::Sp::::::::::::::::p o:::::::::::::::o r:::::r                  tt::::::::::::::t e::::::::eeeeeeee   r:::::r            s::::::::::::::s 
+S:::::::::::::::SS p::::::::::::::pp   oo:::::::::::oo  r:::::r                    tt:::::::::::tt  ee:::::::::::::e   r:::::r             s:::::::::::ss  
+ SSSSSSSSSSSSSSS   p::::::pppppppp       ooooooooooo    rrrrrrr                      ttttttttttt      eeeeeeeeeeeeee   rrrrrrr              sssssssssss    
+                   p:::::p                                                                                                                                 
+                   p:::::p                                                                                                                                 
+                  p:::::::p                                                                                                                                
+                  p:::::::p                                                                                                                                
+                  p:::::::p                                                                                                                                
+                  ppppppppp                                                                                                                                 */
